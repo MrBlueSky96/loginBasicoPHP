@@ -1,0 +1,22 @@
+.signup-form h2 {
+    text-align: center;
+    margin-top: 1%;
+}
+
+.signupContainer {
+    text-align: center;
+    margin-top: 1%;
+}
+
+.col {
+    margin-top: 0.5%;
+}
+
+div input {
+    width: 300px;
+}
+
+.btn {
+    margin-top: 0.7%;
+}
+

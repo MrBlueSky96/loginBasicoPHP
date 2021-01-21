@@ -2,11 +2,11 @@
     include_once 'header.php';
 ?>
 
-<section class="signup-form">
+<section class="login-form">
 
 <h2>Iniciar Sesión</h2>
 
-<div class="signupContainer">
+<div class="loginContainer">
 
     <div class="row">
         
@@ -21,7 +21,11 @@
             </div>
 
             <div class="col">
-                <button type="submit" class="btn btn-primary btn-rounded" name="submit">Registrarse</button>
+                <button type="submit" class="btn btn-primary btn-rounded" name="submit">Iniciar Sesión</button>
+            </div>
+            
+            <div class="msg">
+                <a class="nav-link" href="signup.php">¿Aún no tienes una cuenta?</a>
             </div>
             
 

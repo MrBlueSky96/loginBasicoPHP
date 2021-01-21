@@ -1,3 +1,4 @@
+/*Form Registro*/
 .signup-form h2 {
     text-align: center;
     margin-top: 1%;
@@ -5,6 +6,23 @@
 
 .signupContainer {
     text-align: center;
+    margin-top: 1%;
+}
+
+
+/*Form Login*/
+.login-form h2 {
+    text-align: center;
+    margin-top: 1%;
+}
+
+.loginContainer {
+    text-align: center;
+    margin-top: 1%;
+}
+
+/*General*/
+.msg {
     margin-top: 1%;
 }
 
@@ -19,4 +37,3 @@ div input {
 .btn {
     margin-top: 0.7%;
 }
-

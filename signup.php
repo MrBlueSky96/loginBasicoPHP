@@ -36,6 +36,10 @@
                 <button type="submit" class="btn btn-primary btn-rounded" name="submit">Registrarse</button>
             </div>
             
+            <div class="msg">
+                <a class="nav-link" href="login.php">¿Ya tienes una cuenta?</a>
+            </div>
+            
 
         </form>
         

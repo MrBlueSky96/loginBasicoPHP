@@ -10,7 +10,7 @@
 
     <div class="row">
         
-        <form action="login.inc.php" method="post">
+        <form action="includes/login.inc.php" method="post">
 
             <div class="col">
                 <input type="text" name="name" placeholder="Nombre de Usuario o Email">

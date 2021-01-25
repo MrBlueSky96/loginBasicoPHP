@@ -10,7 +10,7 @@
 
     <div class="row">
         
-        <form action="signup.inc.php" method="post">
+        <form action="includes/signup.inc.php" method="post">
 
             <div class="col">
                 <input type="text" name="name" placeholder="Nombre">

@@ -36,6 +36,18 @@
 
 </div>
 
+<?php
+
+    if (isset($_GET["error"])) {
+        if ($_GET["error"] == "emptyinput") {
+            echo "<p>Algún campo no ha sido rellenado</p>";
+        }
+        else if ($_GET["error"] == "wronglogin") {
+            echo "<p>Algún campo no es correcto</p>";
+        }
+    }
+
+?>
 
 </section>
 

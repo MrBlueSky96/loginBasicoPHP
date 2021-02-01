@@ -42,3 +42,9 @@ div input {
     width:fit-content;
     margin: auto;
 }
+
+.bienvenido {
+    text-align: center;
+    font-size: large;
+    margin-top: 15px;
+}

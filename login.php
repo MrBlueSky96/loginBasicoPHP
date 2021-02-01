@@ -13,7 +13,7 @@
         <form action="includes/login.inc.php" method="post">
 
             <div class="col">
-                <input type="text" name="name" placeholder="Nombre de Usuario o Email">
+                <input type="text" name="uid" placeholder="Nombre de Usuario o Email">
             </div>
 
             <div class="col">
@@ -39,7 +39,7 @@
 <?php
 
     if (isset($_GET["error"])) {
-        if ($_GET["error"] == "emptyinput") {
+        if ($_GET["error"] == "emptylogin") {
             echo "<p>Algún campo no ha sido rellenado</p>";
         }
         else if ($_GET["error"] == "wronglogin") {

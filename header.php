@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,8 +26,20 @@
             <ul class="navbar-nav">
 
                 <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="signup.php">Registrarse</a></li>
-                <li class="nav-item"><a class="nav-link" href="login.php">Iniciar Sesión</a></li>
+
+                <?php
+
+                    if (isset($_SESSION["useruid"])) {
+                        echo "<li class='nav-item'><a class='nav-link' href='profile.php'>Perfil</a></li>";
+                        echo "<li class='nav-item'><a class='nav-link' href='logout.php.php'>Cerrar Sesión</a></li>";
+                    }
+                    else {
+                        echo "<li class='nav-item'><a class='nav-link' href='signup.php'>Registrarse</a></li>";
+                        echo "<li class='nav-item'><a class='nav-link' href='login.php'>Iniciar Sesión</a></li>";
+                    }
+                ?>
+
+                
 
             </ul>
             

@@ -31,7 +31,7 @@
 
                     if (isset($_SESSION["useruid"])) {
                         echo "<li class='nav-item'><a class='nav-link' href='profile.php'>Perfil</a></li>";
-                        echo "<li class='nav-item'><a class='nav-link' href='logout.php.php'>Cerrar Sesión</a></li>";
+                        echo "<li class='nav-item'><a class='nav-link' href='includes/logout.inc.php'>Cerrar Sesión</a></li>";
                     }
                     else {
                         echo "<li class='nav-item'><a class='nav-link' href='signup.php'>Registrarse</a></li>";

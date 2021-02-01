@@ -37,3 +37,8 @@ div input {
 .btn {
     margin-top: 0.7%;
 }
+
+.msg a {
+    width:fit-content;
+    margin: auto;
+}

@@ -139,7 +139,7 @@ function loginUser($conn, $username, $pwd) {
         exit();
     }
 
-    $pwdHashed = $uidExists["userPwd"];
+    $pwdHashed = $uidExists["usersPwd"];
     $checkPwd = password_verify($pwd, $pwdHashed);
 
     if ($checkPwd === false) {
